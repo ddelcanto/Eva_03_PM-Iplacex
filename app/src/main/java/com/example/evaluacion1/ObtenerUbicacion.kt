@@ -34,7 +34,7 @@ import org.osmdroid.views.overlay.Marker
 
 
 class GpsVM : ViewModel(){
-    //val PantallaActual = mutableStateOf(Pantalla.GPS)
+
     val latitud = mutableStateOf(0.0)
     val longitud = mutableStateOf(0.0)
 

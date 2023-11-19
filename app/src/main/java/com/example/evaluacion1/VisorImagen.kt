@@ -35,13 +35,13 @@ class VisorImagen : ComponentActivity() {
 
         setContent {
             Evaluacion1Theme {
-                ImagenPantallaCompleta(uri = imageUri)
+                ImagenPantallaCompletaUI(uri = imageUri)
             }
         }
     }
 }
 @Composable
-fun ImagenPantallaCompleta(uri: Uri) {
+fun ImagenPantallaCompletaUI(uri: Uri) {
 
     val contexto = LocalContext.current
     val imageBitmap = uri2Image(uri, contexto).asImageBitmap()

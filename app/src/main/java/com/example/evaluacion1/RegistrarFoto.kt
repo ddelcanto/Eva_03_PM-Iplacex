@@ -193,15 +193,6 @@ fun PantallaFormUI(nombre:String, latitud:String, longitud:String){
 
         }
 
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        verticalArrangement = Arrangement.Bottom,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ){
-
-
-    }
-
 }
 
 @Composable
